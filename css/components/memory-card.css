@@ -1,3 +1,7 @@
+#root {
+  display: flex;
+}
+
 .memory-card {
   width: 155px;
   height: 155px;
@@ -9,7 +13,18 @@
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
 }
 
+.memory-card.-active {
+  background-color: #fff;
+}
+
 .memory-card > .icon {
   width: 100px;
   height: 100px;
+}
+
+.memory-card.-active .icon.-active {
+  width: 97px;
+  height: 97px;
+  position: relative;
+  bottom: 12px;
 }
