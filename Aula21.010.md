@@ -138,3 +138,7 @@ Cada componente deve ter elementos.
 #### Estrutura CSS
 
 Único conselho, colocar um componente por arquivo.
+
+## 010 Desafios
+
+Fazer a parte da frente do card.
