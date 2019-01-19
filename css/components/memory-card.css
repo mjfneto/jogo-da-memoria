@@ -21,6 +21,7 @@
   background-color: #d4d4d4;
   border-radius: 50%;
   position: absolute;
+  transform: translateY(5px);
 }
 
 .memory-card > .icon {
