@@ -27,3 +27,7 @@ As duas organizações acima mantêm as especificações HTML, CSS e API do DOM.
 ## 04 Como se atualizar na raiz
 
 [ECMA Technical Commitee 39 (TC39) Proposals](https://github.com/tc39/proposals)
+
+## 09 Desafios
+
+Criar as outras cartas com JavaScript.

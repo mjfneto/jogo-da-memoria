@@ -11,7 +11,7 @@ const $iconCollab = `
 
 const $iconC = `
     <img src='img/icon-c.png'
-        alt='Gueio, mascote da CollabCode'
+        alt='Ícone de um livro sobre a linguagem C++'
         class='icon'
     />
 `;
