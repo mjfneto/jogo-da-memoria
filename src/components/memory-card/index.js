@@ -1,4 +1,4 @@
-const $root = document.querySelector("#root");
+const $wrapCards = document.querySelector(".wrap-cards");
 
 function createMemoryCard() {
   const $memoryCard = document.createElement("article");
@@ -11,7 +11,7 @@ function createMemoryCard() {
 `;
 
   $memoryCard.classList.add("memory-card");
-  $root.insertBefore($memoryCard, null);
+  $wrapCards.insertBefore($memoryCard, null);
 
   $memoryCard.insertAdjacentHTML("afterbegin", $iconCollab);
 }
@@ -26,7 +26,7 @@ function createMemoryCardFront() {
 `;
   $memoryCardFront.classList.add("memory-card");
   $memoryCardFront.classList.add("-front");
-  $root.insertBefore($memoryCardFront, null);
+  $wrapCards.insertBefore($memoryCardFront, null);
 
   $memoryCardFront.insertAdjacentHTML("afterbegin", $iconC);
 }
