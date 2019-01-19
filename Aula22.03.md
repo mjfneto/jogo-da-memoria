@@ -15,3 +15,11 @@ O JavaScript utiliza recursos da API (a "API do DOM") para se comunicar com o na
 _Document Object Model (DOM)_: é uma representação do documento HTML criada pelo navegador.
 
 As APIs não mudam a linguagem, oferecem mais recursos a ela.
+
+## 03 Quem cuida do HTML, CSS e da API do DOM
+
+[W3 Consortium](https://www.w3.org/)
+
+[WHATWG](https://whatwg.org/)
+
+As duas organizações acima mantêm as especificações HTML, CSS e API do DOM.
