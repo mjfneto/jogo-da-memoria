@@ -27,3 +27,8 @@
   width: 100px;
   height: 100px;
 }
+
+.memory-card.-front > .icon {
+  position: absolute;
+  transform: translateY(-12px);
+}
