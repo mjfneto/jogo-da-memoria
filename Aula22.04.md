@@ -23,3 +23,7 @@ As APIs não mudam a linguagem, oferecem mais recursos a ela.
 [WHATWG](https://whatwg.org/)
 
 As duas organizações acima mantêm as especificações HTML, CSS e API do DOM.
+
+## 04 Como se atualizar na raiz
+
+[ECMA Technical Commitee 39 (TC39) Proposals](https://github.com/tc39/proposals)
