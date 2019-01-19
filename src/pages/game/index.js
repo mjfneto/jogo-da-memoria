@@ -1,6 +1,7 @@
 const $root = document.querySelector("#root");
 const $memoryCardFront = document.createElement("article");
 createMemoryCard();
+createMemoryCard();
 
 const $iconC = `
     <img src='img/icon-c.png'
