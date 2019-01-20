@@ -28,3 +28,10 @@ function createMemoryCardFront() {
 
   $memoryCardFront.insertAdjacentHTML("afterbegin", $iconC);
 }
+
+$wrapCards.addEventListener('click', function (event) {
+  let target = event.target.closest(".memory-card");
+  if (target) {
+    console.log("aê");
+  }
+});
