@@ -13,3 +13,7 @@ Pasta _components_:
 Pasta _pages_:
 
 - A cada page, uma respectiva página e um arquivo index.js.
+
+## 09 Desafios
+
+Adicionar o ouvinte de clique aos cartões.
