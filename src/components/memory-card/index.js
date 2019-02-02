@@ -1,8 +1,8 @@
 const createMemoryCard = (src, alt, nameClass) => `
   <article class="memory-card ${nameClass}">
     <img
-      src="${src}"
-      alt="${alt}"
+      src="img/${src}.png"
+      alt="${alt}."
       class='icon'
       onClick="handleClick()"
     />
