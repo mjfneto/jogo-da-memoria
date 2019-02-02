@@ -1,11 +1,7 @@
-const createMemoryCard = nameClass  => `
+const createMemoryCard = (src, nameClass) => `
   <article class="memory-card ${nameClass}">
     <img
-      src="${
-        nameClass === "-front"
-          ? "img/icon-c.png"
-          : "img/icon-collabcode.png"
-      }"
+      src="${src}"
       alt="${
         nameClass === "-front"
           ? "Ícone de um livro sobre C++"
