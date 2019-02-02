@@ -46,3 +46,7 @@ Sendo assim, a inserção do elemento pode ser feita no elemento `id="root"` com
 
 ## 06 Transformando o cards-wrapper em um element
 
+## 07 Adicionando alguns memory cards
+
+## 08 Vixi, como vamos adicionar eventos no cartão?
+

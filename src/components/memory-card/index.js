@@ -7,6 +7,11 @@ function createMemoryCard() {
       />
     </article>
   `;
+
+  $memoryCard.addEventListener("click", () => {
+    console.log("cartão");
+  });
+
   return $memoryCard;
 }
 
