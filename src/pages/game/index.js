@@ -17,16 +17,15 @@ const cards = {
 
 const sources = Object.keys(cards);
 
+console.log(sources);
+
 sources.forEach(function(src){
-    let $memoryCard = createMemoryCard(
-        "icon-collabcode",
-        "Gueio, mascote da CollabCode."
-    );
+    let $memoryCard = createMemoryCard();
 
     let $memoryCardFront = createMemoryCard(
+        "-front",
         src,
         cards[src],
-        "-front"
     );
 
     $cardWrapper.insertAdjacentHTML("beforeend", $memoryCard);

@@ -1,4 +1,4 @@
-const createMemoryCard = (src, alt, nameClass) => `
+const createMemoryCard = (nameClass = undefined, src = "icon-collabcode", alt = "Gueio, mascote da CollabCode.") => `
   <article class="memory-card ${nameClass}">
     <img
       src="img/${src}.png"
