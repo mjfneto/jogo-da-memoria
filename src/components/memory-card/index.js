@@ -1,4 +1,4 @@
-function createMemoryCard() {
+const createMemoryCard = () => {
   const $memoryCard = `
     <article class="memory-card">
       <img src='img/icon-collabcode.svg'
@@ -12,7 +12,7 @@ function createMemoryCard() {
   return $memoryCard;
 }
 
-function createMemoryCardFront() {
+const createMemoryCardFront = () => {
   const $memoryCardFront = `
     <article class="memory-card -front">
       <img src='img/icon-c.png'
@@ -22,6 +22,7 @@ function createMemoryCardFront() {
       />
     </article>
   `;
+
   return $memoryCardFront;
 }
 

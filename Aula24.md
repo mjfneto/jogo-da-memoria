@@ -57,3 +57,13 @@ Sendo assim, a inserção do elemento pode ser feita no elemento `id="root"` com
 > The Web platform provides several ways to get notified of DOM events.  Two common styles are: the generalized addEventListener() and a set of specific **on-event handlers**. This page focuses on the details of how the latter work.
 
 >The on-event handlers are a group of properties offered by DOM elements to help manage how that element reacts to events. Elements can be interactive (e.g. links, buttons, images, forms) or non-interactive (e.g. the base document). Events are the actions like being clicked, detecting pressed keys, getting focus, etc. The on-event handler is usually named according to the event it is designed to react to, such as onclick, onkeypress, onfocus, etc.
+
+## Desafios
+
+### Desafio 1
+
+Usar sintaxe arrow function nas duas funções do arquivo memory-card.
+
+### Desafio 2
+
+Refatorar as funções do arquivo memory card de modo que elas sejam só uma função.
