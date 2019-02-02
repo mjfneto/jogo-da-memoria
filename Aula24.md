@@ -28,3 +28,16 @@ Agora, o arquivo da page trabalha com o que foi retornado do arquivo do componen
 
 ## 03 Tirando responsabilidades do nosso object
 
+## 04 Inserindo o elemento cards-wrapper
+
+Organização da page.
+
+Inserir os components e objects na tela.
+
+Essa organização facilita a manutenção do código, porque cada um dos níveis da pirâmide RSCSS tem sua responsabilidade, cada pasta é facilmente encontrada e contém as descrições de cada nível exclusivamente.
+
+Se quero mudar a ordem de inserção dos elementos, isso é responsabilidade da page.
+
+Sendo assim, a inserção do elemento pode ser feita no elemento `id="root"` com o método `insertAdjacentHTL`:
+
+![insercao na page do cardWrapper](mdimg/24.04_organizando_a_page.png)
