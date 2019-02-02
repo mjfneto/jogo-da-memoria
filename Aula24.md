@@ -25,3 +25,6 @@ Acima, a função retorna a variável que contém a estrutura do componente desc
 ![recebendo o componente no arquivo da page](mdimg/24.02_organizando_a_insercao_do_componente2.png)
 
 Agora, o arquivo da page trabalha com o que foi retornado do arquivo do componente, a string com a estruturação do componente e a executa. O `console.log(memoryCard)` e o `console.log(memoryCardFront)` registram no console o valor das respectivas variáveis, as strings descritivas.
+
+## 03 Tirando responsabilidades do nosso object
+
