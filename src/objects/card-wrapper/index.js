@@ -1,4 +1,6 @@
 function createCardWrapper() {
-    const $cardWrapper = `<section class="card-wrapper"></section>`;
+    const $cardWrapper = document.createElement("section");
+    $cardWrapper.classList.add("card-wrapper");
+
     return $cardWrapper;
 };

@@ -43,3 +43,6 @@ Sendo assim, a inserção do elemento pode ser feita no elemento `id="root"` com
 ![insercao na page do cardWrapper](mdimg/24.04_organizando_a_page.png)
 
 ## 05 Eita! O cards-wrapper é uma String!
+
+## 06 Transformando o cards-wrapper em um element
+
