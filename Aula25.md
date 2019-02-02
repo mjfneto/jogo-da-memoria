@@ -13,3 +13,7 @@
 ## 06 Deixando nosso component burro
 
 Deixar o component "burro", ou melhor, _stateless_ significa que ele não tem nenhum variável declarada em seu escopo, ele recebe valores de outras funções como argumentos. Em nosso caso, ele se limita a suas responsabilidades de componente, e deixa a passagem de dados como responsabilidade da page.
+
+## 07 Agora temos um component stateless
+
+Um componente escalável é um componente que pode ser usado em diferentes contextos, sendo simples, _stateless_, ele não armazena dados, somente os recebe. **Armazenagem de dados é responsabilidade da page.**
