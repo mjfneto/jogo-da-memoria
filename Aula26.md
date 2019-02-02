@@ -13,3 +13,6 @@ Par chave/valor.
 ## 04 Passar o JSON direto como parâmetro
 
 ## 05 Só voltando os cartões
+
+## 06 Tentando simplificar o nosso component
+
