@@ -1,5 +1,4 @@
-function createMemoryCard() {
-  const $memoryCard = `
+const createMemoryCard = () => `
     <article class="memory-card">
       <img src='img/icon-collabcode.svg'
           alt='Gueio, mascote da CollabCode'
@@ -7,13 +6,9 @@ function createMemoryCard() {
           onClick="handleClick()"
       />
     </article>
-  `;
+  `
 
-  return $memoryCard;
-}
-
-function createMemoryCardFront() {
-  const $memoryCardFront = `
+const createMemoryCardFront = () => `
     <article class="memory-card -front">
       <img src='img/icon-c.png'
           alt='Ícone de um livro sobre a linguagem C++'
@@ -21,10 +16,6 @@ function createMemoryCardFront() {
           onClick="handleClick()"
       />
     </article>
-  `;
-  return $memoryCardFront;
-}
+  `
 
-function handleClick() {
-  console.log("ae");
-}
+const handleClick = () => console.log("ae");
