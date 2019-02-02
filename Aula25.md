@@ -17,3 +17,13 @@ Deixar o component "burro", ou melhor, _stateless_ significa que ele não tem ne
 ## 07 Agora temos um component stateless
 
 Um componente escalável é um componente que pode ser usado em diferentes contextos, sendo simples, _stateless_, ele não armazena dados, somente os recebe. **Armazenagem de dados é responsabilidade da page.**
+
+## 08 Desafios
+
+### Desafio 1
+
+Criar as outras variações de cards.
+
+### Desafio 2
+
+Fazer com que a ordem dos argumentos passados à função que cria os cards não importe.
