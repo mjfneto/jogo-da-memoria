@@ -1,18 +1,15 @@
-const createMemoryCard = nameClass => {
-  let src = "img/icon-collabcode.png";
-  if (nameClass === "-front") {
-    src = "img/icon-c.png";
-  }
-  return `
-    <article class="memory-card ${nameClass}">
-      <img src="${src}"
-          alt='Gueio, mascote da CollabCode'
-          class='icon'
-          onClick="handleClick()"
-      />
-    </article>
-  `
-}
+const createMemoryCard = nameClass => `
+  <article class="memory-card ${nameClass}">
+    <img
+      src="${
+        nameClass === "-front" ? "img/icon-c.png" : "img/icon-collabcode.png"
+      }"
+      alt='Gueio, mascote da CollabCode'
+      class='icon'
+      onClick="handleClick()"
+    />
+  </article>
+`;
 
 // const createMemoryCardFront = () => `
 //     <article class="memory-card -front">

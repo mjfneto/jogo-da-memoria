@@ -6,3 +6,5 @@
 
 ## 03 Trocando a imagem do memory card
 
+## 04 Vendo um if ternário
+
