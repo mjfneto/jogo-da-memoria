@@ -20,28 +20,27 @@ const $memoryCardJS = createMemoryCard({
     alt: "Ícone de um livro da linguagem JavaScript"
 });
 
-// const $memoryCardJava = createMemoryCard(
-//   "-front",
-//   "img/icon-java.png",
-//   "Ícone de um livro da linguagem Java"
-// );
+const $memoryCardJava = createMemoryCard({
+  nameClass: "-front",
+  src: "img/icon-java.png",
+  alt: "Ícone de um livro da linguagem Java"
+});
 
-// const $memoryCardWoman = createMemoryCard(
-//     "-front",
-//     "img/icon-woman.png",
-//     "Ícone de uma mina codando"
-// );
+const $memoryCardWoman = createMemoryCard({
+    nameClass: "-front",
+    src: "img/icon-woman.png",
+    alt: "Ícone de uma mina codando"
+});
 
 $cardWrapper.insertAdjacentHTML("beforeend", $memoryCardC);
 $cardWrapper.insertAdjacentHTML("beforeend", $memoryCardJS);
-
-// $cardWrapper.insertAdjacentHTML("beforeend", $memoryCardJava);
-// $cardWrapper.insertAdjacentHTML("beforeend", $memoryCardWoman);
-// $cardWrapper.insertAdjacentHTML("beforeend", $memoryCardC);
-// $cardWrapper.insertAdjacentHTML("beforeend", $memoryCardJava);
-// $cardWrapper.insertAdjacentHTML("beforeend", $memoryCardJS);
-// $cardWrapper.insertAdjacentHTML("beforeend", $memoryCardC);
-// $cardWrapper.insertAdjacentHTML("beforeend", $memoryCardWoman);
+$cardWrapper.insertAdjacentHTML("beforeend", $memoryCardJava);
+$cardWrapper.insertAdjacentHTML("beforeend", $memoryCardWoman);
+$cardWrapper.insertAdjacentHTML("beforeend", $memoryCardC);
+$cardWrapper.insertAdjacentHTML("beforeend", $memoryCardJava);
+$cardWrapper.insertAdjacentHTML("beforeend", $memoryCardJS);
+$cardWrapper.insertAdjacentHTML("beforeend", $memoryCardC);
+$cardWrapper.insertAdjacentHTML("beforeend", $memoryCardWoman);
 
 
 
