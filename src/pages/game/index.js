@@ -1,7 +1,11 @@
 const $root = document.querySelector("#root");
 
 const $cardWrapper = createCardWrapper();
-
+const languageC = {
+  nameClass: "-front",
+  src: "img/icon-c.png",
+    alt: "Ícone de um livro da linguagem C++"
+};
 const $memoryCard = createMemoryCard(
     "",
     "img/icon-collabcode.png",
