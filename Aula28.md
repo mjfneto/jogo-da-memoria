@@ -17,3 +17,7 @@
 ## 08 CSS do esconde e mostra card feliz
 
 ## 09 JavaScript para fazer a coisa acontecer
+
+## 10 Desafio
+
+Fazer com que até duas cartas viradas permaneçam assim por, no máximo, 3 segundos. Ver qual duração é a mais agradável.
