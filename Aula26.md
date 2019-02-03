@@ -18,3 +18,5 @@ Par chave/valor.
 
 ## 07 Object desctructuring: eita coisa feliz
 
+## Eita! Dá para usar o object destructuring no parâmetro!
+
