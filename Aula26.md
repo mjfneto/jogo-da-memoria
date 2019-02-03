@@ -20,3 +20,6 @@ Par chave/valor.
 
 ## Eita! Dá para usar o object destructuring no parâmetro!
 
+## Component, tudo numa pasta só
+
+Juntar os arquivos component, tanto do CSS como do JS, numa pasta só. O certo é que estejam num lugar só para facilitar a manutenção.
