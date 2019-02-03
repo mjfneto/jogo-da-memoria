@@ -15,3 +15,5 @@
 ## 07 Achou que tinha um bug? Achou errado!
 
 ## 08 CSS do esconde e mostra card feliz
+
+## 09 JavaScript para fazer a coisa acontecer
