@@ -5,3 +5,5 @@
 ## 02 Function retornando outra function
 
 ## 03 Function retornando um JSON top
+
+## 04 Planeje ao menos um pouco

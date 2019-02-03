@@ -5,8 +5,7 @@ const $cardWrapper = createCardWrapper();
 const createMemoryCard = memoryCard();
 
 const $memoryCardC = createMemoryCard({
-    nameClass: "-front",
-    src: "img/icon-c.png",
+    src: "img/icon-collabcode.png",
     alt: "Ícone de um livro da linguagem C++"
 });
 
