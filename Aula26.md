@@ -18,8 +18,16 @@ Par chave/valor.
 
 ## 07 Object desctructuring: eita coisa feliz
 
-## Eita! Dá para usar o object destructuring no parâmetro!
+## 08 Eita! Dá para usar o object destructuring no parâmetro!
 
-## Component, tudo numa pasta só
+## 09 Component, tudo numa pasta só
 
-Juntar os arquivos component, tanto do CSS como do JS, numa pasta só. O certo é que estejam num lugar só para facilitar a manutenção.
+Juntar os arquivos component e object, tanto do CSS como do JS, numa pasta só. Isso é certo porque facilita a manutenção do código, fazendo com que seja mais fácil de encontrar os respectivos níveis.
+
+## 10 Não precisamos mais importar o CSS
+
+## Desafios
+
+### Desafio
+
+Contornar a importação do CSS do arquivo da pasta memory-card.
