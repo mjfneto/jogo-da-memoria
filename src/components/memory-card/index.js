@@ -1,18 +1,8 @@
-const createMemoryCard = ({ nameClass, src, alt }) => `
-  <article class="memory-card ${nameClass}">
-    <img
-      src="${src}"
-      alt="${alt}"
-      class='icon'
-      onClick="handleClick()"
-    />
-  </article>
-`;
+const createMemoryCard = ({ nameClass, src, alt }) => {
+  const $head = document.querySelector("head");
+  const $style = document.createElement("style");
 
-const $head = document.querySelector("head");
-const $style = document.createElement("style");
-
-$style.textContent = `
+  $style.textContent = `
   .memory-card {
     width: 155px;
     height: 155px;
@@ -51,6 +41,18 @@ $style.textContent = `
   }
 `;
 
-$head.insertBefore($style, null);
+  $head.insertBefore($style, null);
+
+  return `
+  <article class="memory-card ${nameClass}">
+    <img
+      src="${src}"
+      alt="${alt}"
+      class='icon'
+      onClick="handleClick()"
+    />
+  </article>
+`
+};
 
 const handleClick = () => console.log("ae");
