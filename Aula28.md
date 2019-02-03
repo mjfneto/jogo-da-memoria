@@ -12,3 +12,4 @@
 
 ## 06 Colocando Gueio e ícone um sobre o outro (Dislexia)
 
+## 07 Achou que tinha um bug? Achou errado!

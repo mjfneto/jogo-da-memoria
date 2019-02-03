@@ -24,7 +24,7 @@ const memoryCard = () => {
 
   .memory-card .card.-front {
     background-color: #fff;
-    display: block;
+    display: flex;
   }
 
   .memory-card .card.-front::before {
