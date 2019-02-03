@@ -16,3 +16,5 @@ Par chave/valor.
 
 ## 06 Tentando simplificar o nosso component
 
+## 07 Object desctructuring: eita coisa feliz
+

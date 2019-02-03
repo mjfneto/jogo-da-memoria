@@ -42,6 +42,4 @@ $cardWrapper.insertAdjacentHTML("beforeend", $memoryCardJS);
 $cardWrapper.insertAdjacentHTML("beforeend", $memoryCardC);
 $cardWrapper.insertAdjacentHTML("beforeend", $memoryCardWoman);
 
-
-
 $root.insertAdjacentElement("beforeend", $cardWrapper);
