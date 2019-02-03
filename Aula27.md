@@ -8,3 +8,8 @@
 
 ## 04 Agora estamos retornando uma function
 
+## 05 Desafios
+
+### Desafio único
+
+Fazer alternar entre os cartões.
