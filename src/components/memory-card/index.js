@@ -19,11 +19,17 @@ const memoryCard = () => {
     position: relative;
     cursor: pointer;
     position: absolute;
-    display: none;
+  }
+
+  .memory-card.-active .card {
+    diplay: none;
   }
 
   .memory-card .card.-front {
     background-color: #fff;
+  }
+
+  .memory-card.-active .card.-front {
     display: flex;
   }
 
@@ -51,7 +57,7 @@ const memoryCard = () => {
   $head.insertBefore($style, null);
 
   return ({ src, alt }) => `
-  <div class="memory-card">
+  <div class="memory-card -active">
     <article class="card -front">
       <img
         src="${src}"
