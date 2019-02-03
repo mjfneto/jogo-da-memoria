@@ -76,6 +76,24 @@ const memoryCard = () => {
 `;
 };
 
-const handleClick = $component => {
-  $component.classList.toggle("-active")
+let count = () => {
+  let count = 0;
+
+  return function ($component) {
+    count++;
+    if (count <= 2) {
+      $component.classList.toggle("-active");
+    }
+    if (count === 2) {
+      const active = document.querySelectorAll(".memory-card.-active");
+      setTimeout(() => {
+        active.forEach((activeCard) => {
+          activeCard.classList.remove("-active");
+        });
+        count = 0;
+      }, 2000);
+    }
+  }
 };
+
+const handleClick = count();
