@@ -2,11 +2,7 @@ const $root = document.querySelector("#root");
 
 const $cardWrapper = createCardWrapper();
 
-// const $memoryCard = createMemoryCard(
-//     "",
-//     "img/icon-collabcode.png",
-//     "Gueio, mascote da CollabCode"
-//     );
+const createMemoryCard = memoryCard();
 
 const $memoryCardC = createMemoryCard({
     nameClass: "-front",

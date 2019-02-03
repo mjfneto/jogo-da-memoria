@@ -6,3 +6,5 @@
 
 ## 03 Com a function temos um monte de style
 
+## 04 Agora estamos retornando uma function
+
