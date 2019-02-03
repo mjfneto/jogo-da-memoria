@@ -10,3 +10,5 @@
 
 ## 05 Mudando a estrutura do memory-card
 
+## 06 Colocando Gueio e ícone um sobre o outro (Dislexia)
+
