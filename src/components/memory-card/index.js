@@ -76,10 +76,10 @@ const memoryCard = () => {
 `;
 };
 
-let count = () => {
+const handleClick = (() => {
   let count = 0;
 
-  return function ($component) {
+  return ($component) => {
     count++;
     if (count <= 2) {
       $component.classList.toggle("-active");
@@ -94,6 +94,4 @@ let count = () => {
       }, 2000);
     }
   }
-};
-
-const handleClick = count();
+})();
