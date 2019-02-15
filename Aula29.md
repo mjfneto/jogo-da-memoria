@@ -11,3 +11,9 @@
 ## 05 "Simples, bom e muito feliz!"
 
 ## 06 "Bora não permitir a terceira carta"
+
+## 07 "Desafios"
+
+### Desafio
+
+Quando achar o par da primeira carta, fazer as cartas permanecerem viradas e fazer a contagem dos acertos.
