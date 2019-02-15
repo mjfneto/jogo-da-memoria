@@ -20,5 +20,9 @@ function createCardWrapper() {
 
     $head.insertBefore($style, null);
 
+    $cardWrapper.addEventListener("click", event => {
+        console.log(event.target);
+    });
+
     return $cardWrapper;
 };

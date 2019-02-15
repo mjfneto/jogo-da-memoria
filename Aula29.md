@@ -2,3 +2,4 @@
 
 ## 01 "Pensar, pensar e pensar"
 
+## 02 "CardsWrapper sabe sobre o memory-card"
