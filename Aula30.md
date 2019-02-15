@@ -3,3 +3,5 @@
 ## 01 "Temos um bug, bora arrumar?"
 
 ## 02 "Verificar se as cartas são iguais"
+
+## 03 "Contar os nossos pontos felizes"

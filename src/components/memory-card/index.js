@@ -76,6 +76,7 @@ const memoryCard = () => {
 `;
 };
 
+let score = 0;
 const handleClick = $component => {
   if (!$component.classList.contains('-active')) {
 
@@ -90,7 +91,8 @@ const handleClick = $component => {
         $memoryCards[0].querySelector('.-front .icon').getAttribute('src') ===
         $memoryCards[1].querySelector('.-front .icon').getAttribute('src')
         ) {
-          console.log("São iguais.")
+          score++;
+          console.log(score);
         };
 
       setTimeout(function () {
