@@ -9,3 +9,5 @@
 ## 04 "Acertamos! Deixe a carta virada :-)"
 
 ## 05 "Acertamos mas quero continuar jogando"
+
+## 06 "Acertamos! Quero mesmo continuar jogando"
