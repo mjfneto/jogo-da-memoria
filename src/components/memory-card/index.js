@@ -92,7 +92,7 @@ const handleClick = $component => {
         $memoryCards[1].querySelector('.-front .icon').getAttribute('src')
         ) {
           score++;
-          console.log(score);
+          qtdActiveMemoryCard = 0;
         } else {
           setTimeout(function () {
             const $activeMemoryCards = document.querySelectorAll('.memory-card.-active');
@@ -100,8 +100,6 @@ const handleClick = $component => {
             $activeMemoryCards.forEach($memoryCard => {
               $memoryCard.classList.remove('-active');
             });
-
-            qtdActiveMemoryCard = 0;
           }, 1500);
         };
     };
