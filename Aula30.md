@@ -5,3 +5,5 @@
 ## 02 "Verificar se as cartas são iguais"
 
 ## 03 "Contar os nossos pontos felizes"
+
+## 04 "Acertamos! Deixe a carta virada :-)"

@@ -93,17 +93,17 @@ const handleClick = $component => {
         ) {
           score++;
           console.log(score);
+        } else {
+          setTimeout(function () {
+            const $activeMemoryCards = document.querySelectorAll('.memory-card.-active');
+
+            $activeMemoryCards.forEach($memoryCard => {
+              $memoryCard.classList.remove('-active');
+            });
+
+            qtdActiveMemoryCard = 0;
+          }, 1500);
         };
-
-      setTimeout(function () {
-        const $activeMemoryCards = document.querySelectorAll('.memory-card.-active');
-
-        $activeMemoryCards.forEach( $memoryCard => {
-          $memoryCard.classList.remove('-active');
-        });
-
-        qtdActiveMemoryCard = 0;
-      }, 1500);
     };
   };
 };
