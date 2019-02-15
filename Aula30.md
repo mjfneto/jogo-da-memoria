@@ -11,3 +11,5 @@
 ## 05 "Acertamos mas quero continuar jogando"
 
 ## 06 "Acertamos! Quero mesmo continuar jogando"
+
+## 07 "Parece que chegou a hora de revisar :-)"
