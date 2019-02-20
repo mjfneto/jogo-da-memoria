@@ -82,13 +82,10 @@ let score = 0;
 const handleClick = $component => {
   if (!$component.classList.contains('-active')) {
 
-    if (qtdActiveMemoryCard < 2) {
-      $component.classList.toggle("-active")
-    };
+    activeMemoryCard($component);
 
     if (qtdActiveMemoryCard === 1) {
       const $activeMemoryCards = document.querySelectorAll('.memory-card.-active');
-
       if (
         $activeMemoryCards[0].querySelector('.-front .icon').getAttribute('src') ===
         $activeMemoryCards[1].querySelector('.-front .icon').getAttribute('src')
@@ -109,5 +106,11 @@ const handleClick = $component => {
           }, 1500);
         };
     };
+  };
+};
+
+function activeMemoryCard($component) {
+  if (qtdActiveMemoryCard < 2) {
+    $component.classList.add('-active');
   };
 };
