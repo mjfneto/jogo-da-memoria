@@ -9,3 +9,7 @@
 ## 04 "Function, function e function"
 
 ## 05 "Definir o score como global"
+
+## 06 "Immediately Invoked Function Expression IIFE"
+
+Ideia: "vazar" do escopo o que precisa, e guarda no escopo o que não precisa "vazar".
