@@ -3,3 +3,5 @@
 ## 01 "Isolando tudo e vendo os erros"
 
 ## 02 "Deixar o memoryCard livre e feliz!!!"
+
+## 04 "Deixando o handleClick livre e feliz!!!"

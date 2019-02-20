@@ -60,7 +60,7 @@ const memoryCard = (() => {
     $head.insertBefore($style, null);
 
     return ({ src, alt }) => `
-      <div class="memory-card" onClick="handleClick(this)">
+      <div class="memory-card" onClick="memoryCard.handleClick(this)">
         <article class="card -front">
           <img
             src="${src}"
@@ -119,5 +119,8 @@ const memoryCard = (() => {
     };
   }
 
-  return memoryCard;
+  return {
+    new: memoryCard,
+    handleClick: handleClick
+  }
 })();
