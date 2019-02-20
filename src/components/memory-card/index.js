@@ -78,7 +78,6 @@ const memoryCard = () => {
 `;
 };
 
-let score = 0;
 const handleClick = $component => {
   if (!$component.classList.contains('-active')) {
 
@@ -101,8 +100,8 @@ function checkSure() {
       $activeMemoryCards[0].querySelector('.-front .icon').getAttribute('src') ===
       $activeMemoryCards[1].querySelector('.-front .icon').getAttribute('src')
     ) {
-      score++;
-      console.log(score);
+      store.score++;
+      console.log(store.score);
       $activeMemoryCards.forEach(function ($memoryCard) {
         $memoryCard.classList.add('-score');
         $memoryCard.classList.remove('-active');

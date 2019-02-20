@@ -7,3 +7,5 @@
 ## 03 "Tá chato para entender? Function feliz"
 
 ## 04 "Function, function e function"
+
+## 05 "Definir o score como global"
