@@ -11,3 +11,6 @@
 Utilização de abreviação de object literal para melhorar legibilidade do código, para deixá-lo mais simples.
 
 ## 07 "Padrões são legais"
+
+## 08 "Outra forma de organizar com miss click"
+
