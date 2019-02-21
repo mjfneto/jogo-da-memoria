@@ -18,3 +18,12 @@ Utilização de abreviação de object literal para melhorar legibilidade do có
 
 ## 10 "Eita! Parou de funcionar"
 
+## 11 "Padrão para falar que algo é privado"
+
+Toda função, parâmetro ou variável que tem seu nome iniciado por um underline (`_`) é privada. Isso é uma forma de nomeação utilizada como padrão para organização de código.
+
+Exemplo:
+
+```JS
+module._checkSure = () => {...}
+```
