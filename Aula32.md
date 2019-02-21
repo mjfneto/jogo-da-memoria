@@ -16,3 +16,5 @@ Utilização de abreviação de object literal para melhorar legibilidade do có
 
 ## 09 "Mais uma forma de organizar"
 
+## 10 "Eita! Parou de funcionar"
+
