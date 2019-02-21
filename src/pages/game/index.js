@@ -3,7 +3,7 @@
 
     const $cardWrapper = createCardWrapper();
 
-    const createMemoryCard = memoryCard.new();
+    const createMemoryCard = memoryCard.create();
 
     const $memoryCardC = createMemoryCard({
         src: "img/icon-c.png",

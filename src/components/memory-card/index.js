@@ -1,5 +1,5 @@
 const memoryCard = (() => {
-  function memoryCard() {
+  function create() {
     const $head = document.querySelector("head");
     const $style = document.createElement("style");
     $style.textContent = `
@@ -120,7 +120,7 @@ const memoryCard = (() => {
   }
 
   return {
-    new: memoryCard,
-    handleClick: handleClick
+    create,
+    handleClick
   }
 })();
