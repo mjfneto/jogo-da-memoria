@@ -9,3 +9,5 @@
 ## 06 "Bora melhorar umas paradas"
 
 Utilização de abreviação de object literal para melhorar legibilidade do código, para deixá-lo mais simples.
+
+## 07 "Padrões são legais"

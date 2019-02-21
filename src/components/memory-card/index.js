@@ -1,5 +1,5 @@
 const memoryCard = (() => {
-  function create() {
+  const create = () => {
     const $head = document.querySelector("head");
     const $style = document.createElement("style");
     $style.textContent = `
@@ -88,13 +88,13 @@ const memoryCard = (() => {
     };
   };
 
-  function activeMemoryCard($component) {
+  const activeMemoryCard = $component => {
     if (qtdActiveMemoryCard < 2) {
       $component.classList.add('-active');
     };
   }
 
-  function checkSure() {
+  const checkSure = () => {
     if (qtdActiveMemoryCard === 1) {
       const $activeMemoryCards = document.querySelectorAll('.memory-card.-active');
       if (
