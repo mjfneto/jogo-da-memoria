@@ -64,7 +64,7 @@ const pointBar = (function (){
 
 ### Desafio básico
 
-Criar o **componente** para um "botão de start" ("círculo"). Um botão para iniciar o jogo. Inicialmente, fazer o HTML desse componente.
+Criar o **componente** para um "botão de start" ("círculo"); um botão para iniciar o jogo. Inicialmente, fazer o HTML desse componente.
 
 ### Desafio intermediário
 
