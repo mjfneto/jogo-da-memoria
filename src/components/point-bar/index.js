@@ -20,7 +20,7 @@ const pointBar = (function (){
         `
 
         $head.insertBefore($style, null);
-    }
+    };
 
     module.create = () => {
         module._style();
@@ -31,8 +31,14 @@ const pointBar = (function (){
         `
     };
 
+    module.addPoint = function () {
+        const $score = document.querySelector('.number');
+        $score.textContent = store.score;
+    };
+
     return {
-        create: module.create
+        create: module.create,
+        addPoint: module.addPoint
     }
 
 }());
