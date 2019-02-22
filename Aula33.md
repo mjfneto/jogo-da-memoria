@@ -60,3 +60,16 @@ const pointBar = (function (){
 
 ## 04 "Falta vida, falta CSS"
 
+## 06 "Desafios"
+
+### Desafio básico
+
+Criar o **componente** para um "botão de start" ("círculo"). Um botão para iniciar o jogo. Inicialmente, fazer o HTML desse componente.
+
+### Desafio intermediário
+
+Criar o CSS do botão e posicioná-lo no centro, alinhado horizontalmente no fundo da viewport.
+
+### Desafio avançado
+
+Fazer com que a pontuação (score) seja modificada, e exibida, a cada acerto.
