@@ -26,7 +26,6 @@ const item;
 .item {}
 ```
 
-
 ### Organização das pastas na arquitetura RSCSS
 
 - Pasta component (components são mais simples, sem muitas responsabilidades)
@@ -56,3 +55,6 @@ const pointBar = (function (){
 
 }());
 ```
+
+## 03 "Colocar point-bar na nossa page"
+
