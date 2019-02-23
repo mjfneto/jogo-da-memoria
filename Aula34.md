@@ -12,3 +12,5 @@
 
 ## 02 "Estrutura base do nosso component"
 
+## 03 "Colocar game-button na nossa page feliz"
+
