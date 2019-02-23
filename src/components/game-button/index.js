@@ -9,7 +9,11 @@ const gameButton = (function(){
             .game-button {
                 width: 80px;
                 height: 80px;
-                border-radius: 150%;
+                border-radius: 50%;
+                position: absolute;
+                bottom: 20px;
+                left: 50%;
+                transform: translate(-50%);
             };
         `
 
