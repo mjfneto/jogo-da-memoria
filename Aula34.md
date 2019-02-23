@@ -9,3 +9,6 @@
   - simples
   - utilizáveis em vários contextos
   - **estruturais**
+
+## 02 "Estrutura base do nosso component"
+
