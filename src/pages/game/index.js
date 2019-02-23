@@ -35,6 +35,6 @@
     $cardWrapper.insertAdjacentHTML("beforeend", $memoryCardWoman);
 
     $root.insertAdjacentHTML("afterbegin", $pointBar);
+    $root.insertAdjacentHTML("afterbegin", $gameButton);
     $root.insertAdjacentElement("beforeend", $cardWrapper);
-    $root.insertAdjacentHTML("beforeend", $gameButton);
 })();
