@@ -21,3 +21,17 @@
 ## 07 "Bora deixar o game-button bonitão!!!"
 
 ## 08 "Atualizar os pontos na tela"
+
+## 09 "Desafios"
+
+### Básico
+
+Adicionar um elemento que fique acima das cartas, exigindo o clique no botão seja necessário para iniciar o jogo.
+
+## Intermediário
+
+Pegar o evento de clique do botão e fazer o botão e a camada sumirem.
+
+## Avançado
+
+Primeiro, fazer sumir o botão, e depois a camada. As duas animações com uma duração.
