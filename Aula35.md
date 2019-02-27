@@ -11,3 +11,5 @@
 ## 05 "Clique no botão verde"
 
 ## 06 "Sumir com o botão e a camada"
+
+## 07 "Eita! Nosso botão é um component feliz?"

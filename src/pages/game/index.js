@@ -6,7 +6,7 @@
 
     const $pointBar = pointBar.create();
     const $transparencyLayer = transparencyLayer.render();
-    const $gameButton = gameButton.render();
+    const $gameButton = gameButton.render('start');
 
     const $memoryCardC = createMemoryCard({
         src: "img/icon-c.png",
