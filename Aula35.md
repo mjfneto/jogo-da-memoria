@@ -13,3 +13,9 @@
 ## 06 "Sumir com o botão e a camada"
 
 ## 07 "Eita! Nosso botão é um component feliz?"
+
+## 08 "Voltando! Sumir com o botão e a camada"
+
+![layer-start com a responsabilidade](mdimg/layer-start.png)
+
+Para pensar em reaproveitamento desse código, teremos de criar um object que envolva tanto a camada como o botão. O clique nesse object fará os filhos sumirem.
