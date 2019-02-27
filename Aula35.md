@@ -9,3 +9,5 @@
 ## 04 "Posicionar a camada no lugar certo"
 
 ## 05 "Clique no botão verde"
+
+## 06 "Sumir com o botão e a camada"
