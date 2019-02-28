@@ -23,3 +23,5 @@ Para pensar em reaproveitamento desse código, teremos de criar um object que en
 ## 09 "Código! Sumir com o botão e a camada"
 
 ## 10 "Evento de click no layer-start"
+
+## 11 "Remover de vez o botão e a layer"
