@@ -21,3 +21,5 @@
 Para pensar em reaproveitamento desse código, teremos de criar um object que envolva tanto a camada como o botão. O clique nesse object fará os filhos sumirem.
 
 ## 09 "Código! Sumir com o botão e a camada"
+
+## 10 "Evento de click no layer-start"
