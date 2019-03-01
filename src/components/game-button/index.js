@@ -23,10 +23,29 @@ const gameButton = (function(){
                 cursor: pointer;
                 box-shadow: 0px 4px 8px #3a4042;
                 transition: opacity 200ms linear;
+                animation: bounce 800ms linear infinite;
             }
 
             .game-button.-disable {
                 opacity: 0;
+            }
+
+            @keyframes bounce {
+                0% {
+                    transform: scale(1.0);
+                }
+                25% {
+                    transform: scale(1.10);
+                }
+                50% {
+                    transform: scale(1.15);
+                }
+                75% {
+                    transform: scale(1.10);
+                }
+                100% {
+                    transform: scale(1.0);
+                }
             }
         `
 
