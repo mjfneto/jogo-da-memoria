@@ -4,3 +4,8 @@
 
 ## 02 "Criar uma nova página"
 
+## 03 "Instalar figma"
+
+[https://www.figma.com/](https://www.figma.com/)
+
+Configurações > get Desktop App
