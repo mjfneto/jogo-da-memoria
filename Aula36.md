@@ -14,7 +14,7 @@
 
 ## 07 "Show, setTimeout! Oi event transitionend"
 
-O setTimeout funciona para remover o elemento pai da layer e do botão, mas isso impacta negativamente a manutenção, porque não facilita a identificação dos valores de tempo de espera e da animação. Se uma alteração tivesse que ser feita em um deles, quem estivesse cuidando disso teria de procurar onde está o setTimeout para fazer a adequação dos valores. Sendo assim, trocamos o setTimeout para uma captação de evento do browser, que observa quando uma animação termina, iniciando uma função a partir deste ponto, é o event handler inline `onTransitionEnd`, que observa o evento `ontransitionend`.
+O setTimeout funciona para remover o elemento pai da layer e do botão, mas isso impacta negativamente a manutenção, porque não facilita a identificação dos valores de tempo de espera e da animação. Se uma alteração tivesse que ser feita em um deles, quem estivesse cuidando disso teria de procurar onde está o setTimeout para fazer a adequação dos valores. Sendo assim, trocamos o setTimeout para uma captação de **evento do browser**, que observa quando uma animação termina, iniciando uma função a partir deste ponto, é o event handler inline `onTransitionEnd`, que observa o evento `ontransitionend`.
 
 ```CSS
 module._style = () => {
@@ -61,3 +61,18 @@ module.handleTransitionEnd = (event, $component) => {
 >Isso é bastante útil, pois nos permite fazer uma manutenção facilitada do código CSS dos arquivos dos components filhos de um object. No caso, nas strings que definem os estilos dos filhos do object layer-start (os components transparency-layer e game-button) podemos fazer simplesmente alterações no tempo de transição, sem a necessidade de procurar o arquivo que conteria o `setTimeout` para fazer as devidas adequações de valores de tempo. Isso economiza tempo de manutenção, o que é valioso para empresas.
 
 ## 08 "Limpando um pouco o código"
+
+## 09 "Revisada"
+
+```JS
+module.handleClick = $component => {
+        const $children = $component.querySelectorAll('*');
+        /* Utilizar o seletor asterisco (*)
+         * para selecionar os filhos do elemento
+         * pode ser uma boa escolha se você quer
+         * simplificar código.
+         */
+
+        $children.forEach($item => $item.classList.add('-disable'));
+    };
+```
