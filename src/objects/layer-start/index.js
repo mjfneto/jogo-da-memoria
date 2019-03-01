@@ -4,6 +4,10 @@ const layerStart = (function(){
     module.handleClick = $component => {
         $component.querySelector('.transparency-layer').classList.add('-disable');
         $component.querySelector('.game-button').classList.add('-disable');
+
+        setTimeout(() => {
+            $component.remove();
+        }, 500);
     };
 
     module.render = content => {
