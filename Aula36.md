@@ -59,3 +59,5 @@ module.handleTransitionEnd = (event, $component) => {
 ```
 
 >Isso é bastante útil, pois nos permite fazer uma manutenção facilitada do código CSS dos arquivos dos components filhos de um object. No caso, nas strings que definem os estilos dos filhos do object layer-start (os components transparency-layer e game-button) podemos fazer simplesmente alterações no tempo de transição, sem a necessidade de procurar o arquivo que conteria o `setTimeout` para fazer as devidas adequações de valores de tempo. Isso economiza tempo de manutenção, o que é valioso para empresas.
+
+## 08 "Limpando um pouco o código"
