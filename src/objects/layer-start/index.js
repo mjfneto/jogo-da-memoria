@@ -1,7 +1,10 @@
 const layerStart = (function(){
     module = {};
 
-    module.handleClick = $component => $component.remove();
+    module.handleClick = $component => {
+        $component.querySelector('.transparency-layer').classList.add('-disable');
+        $component.querySelector('.game-button').classList.add('-disable');
+    };
 
     module.render = content => {
         const $transparencyLayer = transparencyLayer.render();
