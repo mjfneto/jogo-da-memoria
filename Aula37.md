@@ -27,3 +27,6 @@ Buscar **referências.**
 [https://www.uplabs.com/](https://www.uplabs.com/)
 
 ![uplabs.com](mdimg/referencias_layout2.png)
+
+## 06 "Criar o layout!!!"
+
