@@ -7,3 +7,6 @@
 ## 03 "Animando também a nossa camada"
 
 ## 04 "Add class -disable com JavaScript"
+
+## 05 "Adicionar delay na camada"
+
