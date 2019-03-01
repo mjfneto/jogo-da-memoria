@@ -30,3 +30,6 @@ Buscar **referências.**
 
 ## 06 "Criar o layout!!!"
 
+## 07 "Revisão"
+
+## 08 "Desafios top top top"
