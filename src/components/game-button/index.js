@@ -22,7 +22,12 @@ const gameButton = (function(){
                 font-size: 1.05em;
                 cursor: pointer;
                 box-shadow: 0px 4px 8px #3a4042;
+                transition: opacity 1s linear;
             };
+
+            .game-button.-disable {
+                opacity: 0;
+            }
         `
 
         $head.insertBefore($style, null);
