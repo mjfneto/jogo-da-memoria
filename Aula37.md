@@ -15,3 +15,15 @@ Configurações > get Desktop App
 Rabisco frame:
 
 ![rabisco frame](mdimg/rabisco_frame.png)
+
+## 05 "Por onde começar o layout"
+
+Buscar **referências.**
+
+[https://usepanda.com/](https://usepanda.com/)
+
+![usepanda.com](mdimg/referencias_layout.png)
+
+[https://www.uplabs.com/](https://www.uplabs.com/)
+
+![uplabs.com](mdimg/referencias_layout2.png)
