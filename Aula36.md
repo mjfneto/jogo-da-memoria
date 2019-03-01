@@ -76,3 +76,15 @@ module.handleClick = $component => {
         $children.forEach($item => $item.classList.add('-disable'));
     };
 ```
+
+## 10 "Desafio top"
+
+### Intermediário/Avançado
+
+Adicionar o comportamento de animação no botão. Ele deve ganhar em escala (cerca de `2.5`).
+
+Dica: propriedade `transform` com o valor `scale(x)`
+
+Dica: para resolver problemas de orientação do elemento que está sendo animado, a propriedade `transform-origin`.
+
+Lembrete: animações com a propriedade `transform` e `opacity` usam a GPU (_Graphics Processing Unit_). Se usa a GPU, fica um pouco mais performático, usa a placa de vídeo, o browser é "forçado" a usar a placa de vídeo. Então, abusar das duas propriedades. Quando não é possivel (com `background-color`, ou `background-animation`, por exemplo) perde-se um pouco de performance.
