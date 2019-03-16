@@ -8,7 +8,6 @@ const flatButton = (function() {
 
       $style.textContent = `
             .flat-button {
-                background-color: #eae6da;
                 color: #fffcee;
                 font-size: 24px;
                 font-weight: bold;
@@ -18,12 +17,14 @@ const flatButton = (function() {
             }
         `;
 
-      $head.insertAdjacentElement("beforeend", $style);
+      $head.insertBefore($style, null);
     };
 
-    module.render = content => {
+    module.render = () => {
         module._style();
-        return `<button class="flat-button">${content}</button>`
+        return ({ txt, bgc }) => {
+            return `<button class="flat-button" style="background-color:${bgc}">${txt}</button>`;
+        }
     }
 
     return {

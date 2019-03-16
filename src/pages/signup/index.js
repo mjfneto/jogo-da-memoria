@@ -1,6 +1,17 @@
 (function() {
     const $root = document.querySelector('#root');
 
-    $root.insertAdjacentHTML('beforeend', flatButton.render('Log in'));
-    $root.insertAdjacentHTML("beforeend", flatButton.render('Sign up'));
+    const createFlatButton = flatButton.render();
+
+    const $logInButton = createFlatButton({
+        txt: 'Log in',
+        bgc: '#eae6da'
+    });
+    const $signUpButton = createFlatButton({
+        txt: 'Sign up',
+        bgc: '#f25a70'
+    });
+
+    $root.insertAdjacentHTML('beforeend', $logInButton);
+    $root.insertAdjacentHTML('beforeend', $signUpButton);
 })()
