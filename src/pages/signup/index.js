@@ -6,4 +6,12 @@
 
     $root.insertAdjacentHTML('beforeend', $loginButton);
     $root.insertAdjacentHTML('beforeend', $signupButton);
+    $root.insertAdjacentHTML('beforeend', logoWrapper.render());
+
+    $logoWrapper = document.querySelector('.logo-wrapper');
+
+    const $logoFoothold = logoFoothold.render();
+
+    $logoWrapper.insertAdjacentHTML('beforeend', $logoFoothold);
+
 })()

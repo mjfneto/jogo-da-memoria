@@ -10,8 +10,8 @@ const flatButton = (function() {
 
       $style.textContent = `
             .flat-button-${module._id} {
-                background-color: ${active ? "#f25a70" : "#eae6da"};
-                color: ${active ? "#fff" : "#fffcee"};
+                background-color: ${active ? "#eae6da" : "#f25a70"};
+                color: ${active ? "#fffcee" : "#fff"};
                 font-size: 24px;
                 font-weight: bold;
                 width: 50vw;
