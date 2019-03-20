@@ -12,7 +12,7 @@ const flatButton = (function() {
                 color: #fffcee;
                 font-size: 24px;
                 font-weight: bold;
-                width: 186px;
+                width: 50vw;
                 height: 176px;
                 text-transform: uppercase;
             }
