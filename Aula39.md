@@ -9,3 +9,8 @@
 ## 04 "Refactory flat-button com class"
 
 ## 05 "Refactory flat-button sem class"
+
+## 06 "Bug louco no flat-button"
+
+## 07 "Deixar o flat-button único"
+
