@@ -57,3 +57,17 @@ const flatButton = (function() {
     }
 })()
 ```
+
+## 09 "Desafios top, top, top"
+
+### Básico
+
+Fazer o HTML e o CSS do componente que envolve o ícone do Gueio.
+
+### Intermediário
+
+Fazer o título abaixo do elemento do logo. Ele precisa ser utilizado também na tela de login.
+
+### Avançado
+
+Posicionar a logo.
