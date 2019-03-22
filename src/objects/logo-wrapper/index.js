@@ -9,7 +9,7 @@ const logoWrapper = (function() {
         $style.textContent = `
             .logo-wrapper {
                 width: 100vw;
-                height: 50vh;
+                height: 205px;
                 position: relative;
             }
         `

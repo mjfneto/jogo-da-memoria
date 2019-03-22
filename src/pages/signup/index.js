@@ -14,4 +14,7 @@
 
     $logoWrapper.insertAdjacentHTML('beforeend', $logoFoothold);
 
+    const $menuHeader = menuHeader.render('Welcome!');
+
+    $root.insertAdjacentHTML('beforeend', $menuHeader);
 })()
