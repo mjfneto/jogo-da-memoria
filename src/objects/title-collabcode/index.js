@@ -11,15 +11,16 @@ const titleCollabcode = (function() {
                 color: #f25a70;
                 font-size: 24px;
                 letter-spacing: 0.6px;
+                text-transform: uppercase;
             }
         `
 
         $head.insertAdjacentElement('beforeend', $style);
     }
 
-    module.render = () => {
+    module.render = content => {
         module._style();
-        return `<h1 class="title-collabcode">WELCOME!</h1>`
+        return `<h1 class="title-collabcode">${content}</h1>`
     }
 
     return {
