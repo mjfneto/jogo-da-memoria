@@ -20,7 +20,9 @@ const titleCollabcode = (function() {
 
     module.render = content => {
         module._style();
-        return `<h1 class="title-collabcode">${content}</h1>`
+        return `
+            <h1 class="title-collabcode">${content}</h1>
+        `
     }
 
     return {

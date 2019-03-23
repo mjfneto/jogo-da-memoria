@@ -7,12 +7,11 @@
     const $logoCollabcode = logoCollabcode.render();
     const $titleCollabcode = titleCollabcode.render('Welcome!');
 
-    const $logoWrapper = logoWrapper.render($logoCollabcode);
+    const $logoWrapper = logoWrapper.render($logoCollabcode, $titleCollabcode);
 
     console.log($logoWrapper);
 
     $root.insertAdjacentHTML('beforeend', $loginButton);
     $root.insertAdjacentHTML('beforeend', $signupButton);
     $root.insertAdjacentHTML('beforeend', $logoWrapper);
-    $root.insertAdjacentHTML('beforeend', $titleCollabcode);
 })()

@@ -85,3 +85,5 @@ const logoWrapper = (function() {
     }
 })();
 ```
+
+## 10 "logo-wrapper com dois filhos"
