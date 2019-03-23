@@ -40,3 +40,7 @@ OBS: Não confundir a palavra component do RSCSS com a palavra component do Reac
 ```HTML
 <p lang="pt-BR">Muito <em lang="en">text</em>.</p>
 ```
+
+## 08 "Criando o nosso wrapper"
+
+Criação de um **object estrutural.** Agrupa um conjunto de informações e as posiciona. É um object wrapper que envolve components.
