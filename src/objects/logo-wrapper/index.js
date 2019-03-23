@@ -1,12 +1,14 @@
 const logoWrapper = (function() {
     const module = {};
 
-    module.render = ($children1, $children2) =>`
+    module.render = (...$children) => {
+        console.log($children);
+        return `
             <div class="logo-wrapper">
-                ${$children1}
-                ${$children2}
+                ${$children.join('')}
             </div>
         `
+    }
 
     return {
         render: module.render

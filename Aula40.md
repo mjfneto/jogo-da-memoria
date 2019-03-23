@@ -87,3 +87,75 @@ const logoWrapper = (function() {
 ```
 
 ## 10 "logo-wrapper com dois filhos"
+
+## 11 "logo-wrapper recebendo vários filhos"
+
+### Spread operator (`...`) para passar um número indeterminado de filhos
+
+```JS
+(function() {
+    const $root = document.querySelector('#root');
+
+    const $loginButton = flatButton.render('Log in');
+    const $signupButton = flatButton.render("Sign up", true);
+
+    const $logoCollabcode = logoCollabcode.render();
+    const $titleCollabcode = titleCollabcode.render('Welcome!');
+
+    const $logoWrapper = logoWrapper.render($logoCollabcode, $titleCollabcode); // dois argumentos são passados
+
+    console.log($logoWrapper);
+
+    $root.insertAdjacentHTML('beforeend', $loginButton);
+    $root.insertAdjacentHTML('beforeend', $signupButton);
+    $root.insertAdjacentHTML('beforeend', $logoWrapper);
+})()
+```
+
+```JS
+const logoWrapper = (function() {
+    const module = {};
+
+    module.render = (...$children) => { // ambos os argumentos são recebidos
+        return `
+            <div class="logo-wrapper">
+                ${$children}
+            </div>
+        `
+    }
+
+    return {
+        render: module.render
+    }
+})();
+```
+
+O spread operator cria um array com os argumentos passados.
+
+![spread operator](mdimg/40.10_usando_spread_operator.png)
+
+Mas isso gera um efeito indesejado, que é uma string separada por vírgulas sendo aninhada no wrapper (as vírgulas chegam a ser renderizadas na tela).
+
+Para consertar isso, fazemos uso do método array `join()`:
+
+[join() no w3schools.com](https://www.w3schools.com/jsref/jsref_join.asp)
+
+```JS
+const logoWrapper = (function() {
+    const module = {};
+
+    module.render = (...$children) => { // ambos os argumentos são recebidos
+        return `
+            <div class="logo-wrapper">
+                ${$children.join('')}
+            </div>
+        `
+    }
+
+    return {
+        render: module.render
+    }
+})();
+```
+
+![spread operator](mdimg/40.10_usando_spread_operator_com_join.png)
