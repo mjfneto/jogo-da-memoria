@@ -44,3 +44,44 @@ OBS: Não confundir a palavra component do RSCSS com a palavra component do Reac
 ## 08 "Criando o nosso wrapper"
 
 Criação de um **object estrutural.** Agrupa um conjunto de informações e as posiciona. É um object wrapper que envolve components.
+
+## 09 "Refazendo o logo-collabcode (Dislexia)"
+
+É possível aninhar elementos passando-os como argumentos para as funções que renderizam seus elementos pais.
+
+```JS
+(function() {
+    const $root = document.querySelector('#root');
+
+    const $loginButton = flatButton.render('Log in');
+    const $signupButton = flatButton.render("Sign up", true);
+
+    const $logoCollabcode = logoCollabcode.render();
+    const $titleCollabcode = titleCollabcode.render('Welcome!');
+
+    const $logoWrapper = logoWrapper.render($logoCollabcode); // a string $logoCollabcode é passada como argumento
+
+    console.log($logoWrapper);
+
+    $root.insertAdjacentHTML('beforeend', $loginButton);
+    $root.insertAdjacentHTML('beforeend', $signupButton);
+    $root.insertAdjacentHTML('beforeend', $logoWrapper);
+    $root.insertAdjacentHTML('beforeend', $titleCollabcode);
+})()
+```
+
+A string `$logoCollabcode` é argumento na renderização do `$logoWrapper` (`$children`). Perceba que a inserção desse HTML no `$root` substitui a inserção do `$logoCollabcode`.
+
+```JS
+const logoWrapper = (function() {
+    const module = {};
+
+    module.render = $children => {
+        return `<div class="logo-wrapper">${$children}</div>`
+    }
+
+    return {
+        render: module.render
+    }
+})();
+```
