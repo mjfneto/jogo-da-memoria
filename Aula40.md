@@ -166,3 +166,22 @@ const logoWrapper = (function() {
 
 ## 14 "Posicionar sobre os botões"
 
+## 15 "Revisão"
+
+## 16 "Desafios top, top, top"
+
+### Básico
+
+Alinhar verticalmente o texto dos botões login e signup, fazendo com que o espaçamento acompanhe o layout.
+
+### Intermediário
+
+Criar o `<input>` para o e-mail.
+
+### Avançado
+
+Fazer o código de validação do e-mail.
+
+Criar um arquivo `.js` que contenha o código.
+
+**DICA:** RegEx (expressão regular). Como validar com RegEx.
