@@ -162,3 +162,5 @@ const logoWrapper = (function() {
 
 ## 12 "Centralizar os children horizontalmente (Dislexia)"
 
+## 13 "Borda branca no logo-collabcode"
+
