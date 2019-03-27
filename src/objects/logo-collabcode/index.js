@@ -8,6 +8,7 @@ const logoCollabcode = (function(){
 
         $style.textContent = `
             .logo-collabcode {
+                background-color: white;
                 display: inline-block;
                 border: solid 40px white;
                 border-radius: 50%;
