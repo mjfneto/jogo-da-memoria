@@ -159,3 +159,6 @@ const logoWrapper = (function() {
 ```
 
 ![spread operator](mdimg/40.10_usando_spread_operator_com_join.png)
+
+## 12 "Centralizar os children horizontalmente (Dislexia)"
+
