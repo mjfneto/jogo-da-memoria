@@ -8,7 +8,10 @@ const formWrapper = (function() {
         $style.textContent = `
             .form-wrapper {
                 text-align: center;
-                transform: translateY(-50%);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
             }
         `
 
