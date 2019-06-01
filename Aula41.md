@@ -15,3 +15,6 @@ Valor do propriedade `display`, `inline-flex`.
 - Melhor usar somente quando não houver necessidade de compatibilidade com Internet Explorer.
 
 Compatibilidade entre navegadores do inline-flex, em [https://caniuse.com/#search=inline-flex](https://caniuse.com/#search=inline-flex)
+
+## 03 "Criar object do label"
+
