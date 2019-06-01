@@ -8,6 +8,7 @@
     const $titleCollabcode = titleCollabcode.render('Welcome!');
 
     const $labelCollabcode = labelCollabcode.render("E-mail");
+    const $inputCollabcode = inputCollabcode.render();
 
     const $logoWrapper = logoWrapper.render($logoCollabcode, $titleCollabcode);
 
@@ -17,4 +18,5 @@
     $root.insertAdjacentHTML('beforeend', $signupButton);
     $root.insertAdjacentHTML('beforeend', $logoWrapper);
     $root.insertAdjacentHTML('beforeend', $labelCollabcode);
+    $root.insertAdjacentHTML('beforeend', $inputCollabcode);
 })()

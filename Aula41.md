@@ -21,3 +21,6 @@ Compatibilidade entre navegadores do inline-flex, em [https://caniuse.com/#searc
 ## 04 "Dar vida para o label-collabCode"
 
 Lembrar que objects devem ser o mais simples e reutilizáveis o possível.
+
+## 05 "Criar object do input"
+
