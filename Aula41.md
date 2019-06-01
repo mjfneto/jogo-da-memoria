@@ -29,3 +29,6 @@ Lembrar que objects devem ser o mais simples e reutilizáveis o possível.
 Obs.: O elemento `input` não herda por padrão a font-family do pai.
 
 Obs.: O posicionamento de um object fica a cargo de um elemento wrapper que o envolva.
+
+## 07 "O que é Regex?"
+
