@@ -18,3 +18,6 @@ Compatibilidade entre navegadores do inline-flex, em [https://caniuse.com/#searc
 
 ## 03 "Criar object do label"
 
+## 04 "Dar vida para o label-collabCode"
+
+Lembrar que objects devem ser o mais simples e reutilizáveis o possível.
