@@ -32,3 +32,5 @@ Obs.: O posicionamento de um object fica a cargo de um elemento wrapper que o en
 
 ## 07 "O que é Regex?"
 
+## 08 "Básico sobre Regex"
+
