@@ -12,8 +12,6 @@
 
     const $logoWrapper = logoWrapper.render($logoCollabcode, $titleCollabcode);
 
-    console.log($logoWrapper);
-
     $root.insertAdjacentHTML('beforeend', $loginButton);
     $root.insertAdjacentHTML('beforeend', $signupButton);
     $root.insertAdjacentHTML('beforeend', $logoWrapper);

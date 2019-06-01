@@ -4,7 +4,8 @@
 }
 
 
-button {
+button,
+input {
     font-family: inherit;
     border: none;
 }

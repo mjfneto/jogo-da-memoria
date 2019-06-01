@@ -24,3 +24,8 @@ Lembrar que objects devem ser o mais simples e reutilizáveis o possível.
 
 ## 05 "Criar object do input"
 
+## 06 "Dando vida para o input-collabcode"
+
+Obs.: O elemento `input` não herda por padrão a font-family do pai.
+
+Obs.: O posicionamento de um object fica a cargo de um elemento wrapper que o envolva.
